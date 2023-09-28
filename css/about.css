@@ -1,0 +1,23 @@
+
+.about {
+    margin: 0 30px;
+}
+
+.about__container p {
+    margin: 15px 0;
+}
+
+.about__paragraph{
+    color: #464646;
+}
+
+
+@media (min-width:1200px) {
+    .about__title{
+        font-size: 35px;
+    }
+    .about__paragraph{
+        font-size: 20px;
+        font-weight: 10;
+    }
+}

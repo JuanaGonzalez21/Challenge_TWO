@@ -1,0 +1,44 @@
+.title {
+    margin: 30px;
+}
+
+.title__div .title__profile {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.title__subsection {
+    margin-bottom: 20px;
+    color: var(--color-textos);
+    font-weight: 100;
+}
+
+.title__network {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width:1200px) {
+    .title__div{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    .title__div .title__profile {
+        width: 400px;
+        margin: 20px;
+    }
+
+    .title__container{
+        padding-right: 40px;
+        font-size: 20px;
+    }
+    .title__network{
+        display: flex;
+        flex-direction: row;
+        justify-content:start  ;
+    }
+    .title__network li{
+        margin: 0 20px;
+    }
+}

@@ -1,0 +1,39 @@
+.title__network__item, .experiencia__botao {
+    
+    color: #4741d7;
+    border: 2px solid #4741d7;
+    padding: 16px 20px;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.title__network__item:hover, .experiencia__botao:hover {
+    color: #fff ;
+}
+
+.experiencia__botao::after, 
+.title__network__item::after {
+    content: "";
+    background: #4741d7;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+
+}
+
+.title__network__item:hover::after, .experiencia__botao:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+}
+
+

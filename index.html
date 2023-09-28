@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/title.css">
+    <link rel="stylesheet" href="./css/btn.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/carrete.css">
+    <link rel="stylesheet" href="./css/cardHobbies.css">
+    <link rel="stylesheet" href="./css/academic.css">
+    <link rel="stylesheet" href="./css/experience.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title> Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Sección del Menú  -->
+    <div class="tudo">
+        <section class="menu responsiveMargin">
+            <header class="menu__header">
+                <img src="assets\vector.png">
+                <h3 class="menu__title"> Juana González</h3>
+            </header>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                    <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                    <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                    <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                    <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                    <li class="menu__list__item"><a href="#contacto">juanita.juana@hotmail.com</a></li>
+                </ul>
+            </nav>
+            <p class="menu__list__item__contato"><a href="#contacto">juanita.juana@hotmail.com</a></p>
+        </section>
+
+        <!-- Sección del Header/Title/Hero -->
+        <section class="title responsiveMargin">
+            <div class="title__div">
+                <div>
+                    <img class="title__profile" src="assets\profile.png">
+                </div>
+                
+                <div class="title__container">
+                    <h3 class="title__bio marginh2">Hola, mi nombre es Juana Gonzalez y construyo paginas web</3>
+                        <h4 class="title__subsection">Soy una desarrolladora Front-end apasionada y con alta experiencia
+                            en
+                            React JS, JavaScript y Ruby and Rails con un historial de crear experiencias web
+                            excepcionales y
+                            adaptables para el usuario. Me considero una persona práctica, proactiva e innovadora
+                            enfocada
+                            en dar resultados </h4>
+                        <ul class="title__network">
+                            <!-- Pon los enlaces de tus redes sociales favoritas -->
+                            <li><a class="title__network__item" target="_blank"
+                                    href="https://github.com/JuanaGonzalez21">Github <ion-icon
+                                        name="arrow-redo-outline"></ion-icon></a></li>
+                            <li><a class="title__network__item" target="_blank"
+                                    href="https://www.linkedin.com/in/juana-valentina-gonzalez-ardila-376699197/">Linkedin
+                                    <ion-icon name="arrow-redo-outline"></ion-icon></a></li>
+                            <li><a class="title__network__item" target="_blank"
+                                    href="./assets/Curriculum Vitae Juana Gonzalez.pdf  ">Currículo <ion-icon
+                                        name="arrow-redo-outline"></ion-icon></a></li>
+                        </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección sobre mi -->
+        <section class="about responsiveMargin" id="sobre-mi">
+            <div class="about__container">
+                <h3 class="about__title">Sobre mi</h3>
+                <p class="about__paragraph">Soy conocida por mi proactidad y mi capacidad para adaptarme ágilmente a los
+                    cambios en la industria tecnológica en constante evolución. Mi entusiasmo por mantenerme al día con
+                    las últimas tendencias y mejores prácticas me permite ofrecer soluciones frescas y efectivas a los
+                    desafíos de desarrollo. Lo que me distingue es mi habilidad para trabajar en equipo de manera
+                    efectiva. Creo en la colaboración, la comunicación transparente y el respeto mutuo. Estoy
+                    comprometida a escuchar las ideas de mis compañeros y aportar mi experiencia para lograr resultados
+                    sobresalientes. Mi objetivo es seguir contribuyendo al mundo del desarrollo web con soluciones
+                    creativas y efectivas. </p>
+                <p class="about__paragraph"> Lo que me distingue es mi habilidad para trabajar en equipo de manera
+                    efectiva. Creo en la colaboración, la comunicación transparente y el respeto mutuo. Estoy
+                    comprometida a escuchar las ideas de mis compañeros y aportar mi experiencia para lograr resultados
+                    sobresalientes. Mi objetivo es seguir contribuyendo al mundo del desarrollo web con soluciones
+                    creativas y efectivas.</p>
+                <!-- Si quieres, pon tú firma acá! -->
+                <!-- <img src="assets\signature.png"> -->
+            </div>
+        </section>
+
+        <!-- Sección de Skills -->
+
+        <div id="skills">
+            <h3 class="skills__title centerh3">Skills</h3>
+            <div class="skills___line">
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide slide__div">
+                            <img src="./assets/html.png" alt="img_icon" />
+                        </div>
+                        <div class="slide slide__div">
+                            <img src="./assets/js.png" alt="img_icon" />
+                        </div>
+                        <div class="slide slide__div">
+                            <img src="./assets/php.png" alt="img_icon" />
+                        </div>
+                        <div class="slide slide__div">
+                            <img src="./assets/nodejs.png" alt="img_icon" />
+                        </div>
+                        <div class="slide slide__div">
+                            <img src="./assets/reactjs.png" alt="img_icon" />
+                        </div>
+                        <div class="slide slide__div">
+                            <img src="./assets/css.png" alt="img_icon" />
+                        </div>
+                        <div class="slide slide__div">
+                            <img src="./assets/html.png" alt="img_icon" />
+                        </div>
+                        <div class="slide slide__div">
+                            <img src="./assets/js.png" alt="img_icon" />
+                        </div>
+                        <div class="slide slide__div">
+                            <img src="./assets/php.png" alt="img_icon" />
+                        </div>
+                        <div class="slide slide__div">
+                            <img src="./assets/nodejs.png" alt="img_icon" />
+                        </div>
+                        <div class="slide slide__div">
+                            <img src="./assets/reactjs.png" alt="img_icon" />
+                        </div>
+                        <div class="slide slide__div">
+                            <img src="./assets/css.png" alt="img_icon" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección de Hobbies -->
+        <section class="hobbies responsiveMargin" id="hobbies">
+            <h3 class="hobbies__title centerh3">Hobbies</h3>
+            <div class="hobbies__line">
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"><img src="assets/consola-de-juego.png"></li>
+                        <li class="hobbies__name"> Jugar</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets/codigo.png" alt=""></li>
+                        <li class="hobbies__name">Crear Código</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets/casete.png" alt=""></li>
+                        <li class="hobbies__name">Oir música</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"><img src="assets/peliculas.png" alt=""></li>
+                        <li class="hobbies__name">Ver péliculas</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets/foto-familiar.png" alt=""> </li>
+                        <li class="hobbies__name">Estar en familia</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul>
+                        <li class="hobbies__img"> <img src="assets/mapa.png" alt=""> </li>
+                        <li class="hobbies__name">Viajar</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Formación académica -->
+        <section class="academic " id="formacion">
+            <h3 class="academic__title centerh3">Formación académica</h3>
+            <div class="academic__courses">
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <div class="card">
+                            <div class="img-bx">
+                                <img src="assets/UniversidadCooperativa.png" alt="img" />
+                            </div>
+                            <div class="content">
+                                <div class="detail">
+                                    <h2>Universidad Cooperativa De Colombia<br /><span>Tecnología en desarrollo y
+                                            administación de aplicaciones informáticas</span><br><span>2018 -
+                                            2021</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <div class="card">
+                            <div class="img-bx">
+                                <img src="assets/coderHouse.png" alt="img" />
+                            </div>
+                            <div class="content">
+                                <div class="detail">
+                                    <h2>CoderHouse<br /><span>Desarrollo Web & React Js</span><br><span>2021 -
+                                            2022</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <div class="card">
+                            <div class="img-bx">
+                                <img src="assets/aluraoracle.png" alt="img" />
+                            </div>
+                            <div class="content">
+                                <div class="detail">
+                                    <h2>Alura Lata<br /><span>Emprendimiento - React - Especialización<br>
+                                            Front-End</span><br><span>2023</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Experiencia Profesional/Proyectos-->
+        <section id="xp" class="responsiveMargin">
+            <div class="experience">
+                <h3 class="experience__section__title centerh3">Experiencia Profesional</h3>
+                <div class="experience__box">
+                    <img class="experience__img" src="assets/page_alura.jpg">
+                    <div class="experience__info-container">
+                        <h2 class="experience__title">Encriptador de texto</h2>
+                        <h3 class="experience__text">Challenge Oracle </h3>
+                        <div class="experience__description">
+                            <span class="experience__repo"><a target="_blank"
+                                    href="https://github.com/JuanaGonzalez21/Challenge_ONE"><button
+                                        class="experiencia__botao">Repositório</button></a></span>
+                            <span class="experience__demo"><a target="_blank"
+                                    href="https://juanagonzalez21.github.io/Challenge_ONE"><button
+                                        class="experiencia__botaoo">Ver demo</button></a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience__box experience__box-reverse">
+                    <img class="experience__img " src="assets/page_login1.jpg">
+                    <div class="experience__info-container">
+                        <h2 class="experience__title">Ingreso y registro animado</h2>
+                        <h3 class="experience__text">Proyecto Personal </h3>
+                        <div class="experience__description">
+                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <span class="experience__repo"><a target="_blank"
+                                    href="https://github.com/JuanaGonzalez21/loginandregisteranimated"><button
+                                        class="experiencia__botao">Repositório</button></a></span>
+                            <span class="experience__demo"><a target="_blank"
+                                    href="https://juanagonzalez21.github.io/Login-Register/"><button
+                                        class="experiencia__botaoo">Ver
+                                        demo</button></a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience__box">
+                    <img class="experience__img" src="assets/page_gastronomic.jpg">
+                    <div class="experience__info-container">
+                        <h2 class="experience__title">Ingreso y registro animado</h2>
+                        <h3 class="experience__text">Challenge CoderHouse</h3>
+                        <div class="experience__description">
+                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <span class="experience__repo"><a target="_blank"
+                                    href="https://github.com/JuanaGonzalez21/PROYECTO_FINAL"><button
+                                        class="experiencia__botao">Repositório</button></a></span>
+                            <span class="experience__demo"><a target="_blank"
+                                    href="https://juanagonzalez21.github.io/PROYECTO_FINAL/index.html"><button
+                                        class="experiencia__botaoo">Ver
+                                        demo</button></a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience__box experience__box-reverse">
+                    <img class="experience__img" src="assets/page_neon.jpg">
+                    <div class="experience__info-container">
+                        <h2 class="experience__title">Ingreso y registro con efecto Neon</h2>
+                        <h3 class="experience__text">Proyecto Personal</h3>
+                        <div class="experience__description">
+                            <!-- Pon el enlace del proyecto en Github o GithubP1ages -->
+                            <span class="experience__repo"><a target="_blank"
+                                    href="https://github.com/JuanaGonzalez21/loginandregisteranimated"><button
+                                        class="experiencia__botao">Repositório</button></a></span>
+                            <span class="experience__demo"><a target="_blank"
+                                    href="https://juanagonzalez21.github.io/loginandregisteranimated/#"><button
+                                        class="experiencia__botaoo">Ver
+                                        demo</button></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección de Contacto -->
+        <section class="formcontato" id="contacto">
+            <div class="formcontato__contacto">
+                <div>
+                    <div class="formcontato--esquerda">
+                        <img class="formcontato__img" src="assets\contact_image.png">
+                    </div>
+                </div>
+                <div class="for">
+                    <div class="formcontato__text">
+                        <h3 class="formcontato__title">Contacto</h3>
+                    </div>
+                    <div class="formcontato__text-secondtext">
+                        <h2 class="formcontato__subtext">¿Quieres contactarme?</h2>
+                        <h2 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
+                            usted
+                            lo antes posible. </h2>
+                    </div>
+
+                    <form class="formcontato__form" name="form">
+                        <div class="input__form">
+                            <div class="input">
+                                <input type="text" class="input-field" required />
+                                <label class="input-label">Nombre</label>
+                            </div>
+                            <div class="input">
+                                <input type="mail" class="input-field" required />
+                                <label class="input-label">Correo</label>
+                            </div>
+                            <div class="input">
+                                <input type="text" class="input-field" required />
+                                <label class="input-label">Asunto</label>
+                            </div>
+                            <div class="input">
+                                <textarea type="text" class="textarea-field " required> </textarea>
+                                <label class="textarea-label">Mensaje</label>
+                            </div>
+                            <div class="action">
+                                <button type="submit" class="action-button">Enviar mensaje</button>
+                            </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Sección de Footer -->
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desarrollado por Juana Gonzalez</p>
+                <p>2023</p>
+            </div>
+        </section>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="carrete.js"></script>
+    <script src="validacion.js"></script>
+</body>
+
+</html>
