@@ -60,6 +60,10 @@ input {
 	transition: .25s ease;
 }
 
+.input-labell{
+    color: red;
+}
+
 .input-field {
     background-color: #8597a3;
 	border: 0;
@@ -79,6 +83,9 @@ input {
 	}
 }
 
+.input-fieldd{
+    border-bottom-color: red;
+}
 .textarea-field {
     background-color: #8597a3;
     border: 0;

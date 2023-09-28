@@ -348,26 +348,26 @@
                             lo antes posible. </h2>
                     </div>
 
-                    <form class="formcontato__form" name="form">
+                    <form class="formcontato__form" name="form" novalidate id="miFormulario">
                         <div class="input__form">
                             <div class="input">
-                                <input type="text" class="input-field" required />
-                                <label class="input-label">Nombre</label>
+                                <input type="text" class="input-field" required data-name/>
+                                <label class="input-label" data-label-name>Nombre</label>
                             </div>
                             <div class="input">
-                                <input type="mail" class="input-field" required />
-                                <label class="input-label">Correo</label>
+                                <input type="mail" class="input-field" required data-mail/>
+                                <label class="input-label" data-label-mail>Correo</label>
                             </div>
                             <div class="input">
-                                <input type="text" class="input-field" required />
-                                <label class="input-label">Asunto</label>
+                                <input type="text" class="input-field" required data-host/>
+                                <label class="input-label" data-label-host>Asunto</label>
                             </div>
                             <div class="input">
-                                <textarea type="text" class="textarea-field " required> </textarea>
-                                <label class="textarea-label">Mensaje</label>
+                                <textarea type="text" class="textarea-field " required data-message> </textarea>
+                                <label class="textarea-label" data-label-message>Mensaje</label>
                             </div>
                             <div class="action">
-                                <button type="submit" class="action-button">Enviar mensaje</button>
+                                <button type="submit" class="action-button" data-btn-submit>Enviar mensaje</button>
                             </div>
 
                     </form>
@@ -388,8 +388,7 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="carrete.js"></script>
-    <script src="validacion.js"></script>
+    <script src="./validacion.js"></script>
 </body>
 
 </html>
